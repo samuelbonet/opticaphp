@@ -1,0 +1,29 @@
+.form-group {
+    background-color: rgba(255, 255, 255, 0.6); /* Fondo blanco con 50% de opacidad */
+    padding: 10px;
+    border-radius: 10px;
+}
+.form-control {
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco con 50% de opacidad */
+    border: 1px solid #ccc;
+}
+.form-label {
+    color: #000; /* Color de texto */
+}
+.btn-primary {
+    background-color: rgba(0, 123, 255, 0.7); /* Color azul con 70% de opacidad */
+    border: none;
+}
+.btn-primary:hover {
+    background-color: rgba(0, 123, 255, 1); /* Color azul al 100% cuando se pasa el mouse */
+}
+.wrapper {
+    width: 350px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo transparente */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2); /* Sombra ligera */
+}
+.wrapper h2 {
+    margin-bottom: 20px;
+} 
