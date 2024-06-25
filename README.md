@@ -27,7 +27,7 @@ Contraseña de prueba: 123456
 
 👉 Registro de gafas de sol que se le hace al cliente
 <div align="center">
-    <img src="https://i.postimg.cc/c1h85JNy/Captura-de-pantalla-2024-06-25-155144.png" alt="Registro de gafas de sol">
+    <img src="https://i.postimg.cc/prMbfvqs/Captura-de-pantalla-2024-06-25-160151.png">
 </div><br>
 
 👉 Gestión de clientes (crear, editar, borrar)
