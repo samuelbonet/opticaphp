@@ -102,10 +102,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             text-align: center;
             background: linear-gradient(135deg, #74EBD5 0%, #ACB6E5 100%);
             display: flex;
-            justify-content: center; /* Centrar contenido horizontalmente */
-            align-items: center; /* Centrar contenido verticalmente */
-            height: 100vh; /* Utiliza todo el alto de la ventana */
-            margin: 0; /* Eliminar márgenes predeterminados */
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
             padding: 0;
         }
     </style>
