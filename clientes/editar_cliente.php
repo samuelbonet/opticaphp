@@ -95,7 +95,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <input type="hidden" name="id" value="<?php echo $row['id']; ?>"> <!-- Campo oculto para el ID del cliente -->
             <div class="form-group mb-4">
                 <div class="row">
-                    <label for="nombre" class="col-sm-2 col-form-label text-end">Nombre</label>
+                    <label for="nombre" class="col-sm-2 col-form-label text-end">Nombre *</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control" id="nombre" name="nombre" value="<?php echo $row['nombre']; ?>" required>
                     </div>
@@ -157,6 +157,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     </div>
                 </div>
             </div>
+            <p>* Campos obligatorios</p><br>
             <button type="submit" class="btn btn-primary mb-4">Guardar cambios</button>
             <a href="clientes.php" class="btn btn-secondary mb-4">Volver</a>
         </form>

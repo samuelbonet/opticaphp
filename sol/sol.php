@@ -73,7 +73,7 @@ $result_clientes = $connection->query($sql_clientes);
         <form action="comprar_sol.php" method="POST">
             <div class="form-group mb-4">
                 <div class="row">
-                    <label for="persona" class="col-sm-2 col-form-label text-end">Persona</label>
+                    <label for="persona" class="col-sm-2 col-form-label text-end">Persona *</label>
                     <div class="col-sm-10">
                         <select class="form-control" id="persona" name="persona" required>
                             <?php
@@ -88,7 +88,7 @@ $result_clientes = $connection->query($sql_clientes);
 
             <div class="form-group mb-4">
                 <div class="row">
-                    <label for="numeroserie" class="col-sm-2 col-form-label text-end">Número de serie</label>
+                    <label for="numeroserie" class="col-sm-2 col-form-label text-end">Número de serie *</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control" id="numeroserie" name="numero_serie" placeholder="Escribe el número de serie" required>
                     </div>
@@ -97,7 +97,7 @@ $result_clientes = $connection->query($sql_clientes);
 
             <div class="form-group mb-4">
                 <div class="row">
-                    <label for="color" class="col-sm-2 col-form-label text-end">Color</label>
+                    <label for="color" class="col-sm-2 col-form-label text-end">Color *</label>
                     <div class="col-sm-10">
                         <select class="form-control" id="color" name="color" required>
                             <option value="" disabled selected>Elige el color</option>
@@ -113,7 +113,7 @@ $result_clientes = $connection->query($sql_clientes);
 
             <div class="form-group mb-4">
                 <div class="row">
-                    <label for="tratamiento" class="col-sm-2 col-form-label text-end">Tratamiento</label>
+                    <label for="tratamiento" class="col-sm-2 col-form-label text-end">Tratamiento *</label>
                     <div class="col-sm-10">
                         <select class="form-control" id="tratamiento" name="tratamiento" required>
                             <option value="" disabled selected>Elige el tratamiento</option>
@@ -129,7 +129,7 @@ $result_clientes = $connection->query($sql_clientes);
 
             <div class="form-group mb-4">
                 <div class="row">
-                    <label for="idcliente" class="col-sm-2 col-form-label text-end">Id del cliente</label>
+                    <label for="idcliente" class="col-sm-2 col-form-label text-end">Id del cliente *</label>
                     <div class="col-sm-10">
                         <select class="form-control" id="idcliente" name="cliente_id" required>
                             <?php
@@ -146,12 +146,13 @@ $result_clientes = $connection->query($sql_clientes);
 
             <div class="form-group mb-4">
                 <div class="row">
-                    <label for="precio" class="col-sm-2 col-form-label text-end">Precio</label>
+                    <label for="precio" class="col-sm-2 col-form-label text-end">Precio *</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control" id="precio" name="precio" placeholder="Escribe el precio total" required>
                     </div>
                 </div>
             </div>
+            <p>* Campos obligatorios</p><br>
             <button type="submit" class="btn btn-primary mb-4">Registrar gafas de sol</button>
         </form>
     </div>

@@ -125,6 +125,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
                     </div>
                 </div>
             </div>
+            <p>* Campos obligatorios</p><br>
             <button type="submit" class="btn btn-primary mb-4">Registrar Cliente</button>
         </form>
     </div>
