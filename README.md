@@ -9,7 +9,7 @@
 
 ## Descripción
 
-Aplicación que permite al trabajador poder acceder, crear un registro seleccionando el tipo, la creación, edición y borrado de clientes
+Aplicación que permite al trabajador poder acceder, crear un registro seleccionando el tipo, la creación, edición y borrado de clientes.
 
 ## Demo
 👉 Login en el que el trabajador accederá mediante credenciales <br>
@@ -17,37 +17,27 @@ Usuario de prueba: optico1<br>
 Contraseña de prueba: 123456
 
 <div align="center">
-  <a href="https://postimg.cc/tZ3ZcdLg">
-    <img src="https://i.postimg.cc/mDqYt8j7/Captura-de-pantalla-2024-06-25-110028.png" alt="Captura de pantalla del login">
-  </a>
+    <img src="https://i.postimg.cc/gcHvFD87/Captura-de-pantalla-2024-06-25-155102.png" alt="Login">
 </div><br>
 
 👉 Registro de gafas graduadas que se le hace al cliente
 <div align="center">
-  <a href="https://postimg.cc/XGkqLjCG">
-    <img src="https://i.postimg.cc/RFjtMqCR/Captura-de-pantalla-2024-06-25-110317.png" alt="Captura de pantalla del registro de gafas graduadas">
-  </a>
+    <img src="https://i.postimg.cc/qRXCrJhK/Captura-de-pantalla-2024-06-25-155126.png" alt="Registro de gafas graduadas">
 </div><br>
 
-👉 Registro de gafas graduadas que se le hace al cliente
+👉 Registro de gafas de sol que se le hace al cliente
 <div align="center">
-  <a href="https://postimg.cc/gr4r60p1">
-    <img src="https://i.postimg.cc/gkbhQwTc/Captura-de-pantalla-2024-06-25-110410.png" alt="Captura de pantalla del registro de gafas graduadas">
-  </a>
+    <img src="https://i.postimg.cc/c1h85JNy/Captura-de-pantalla-2024-06-25-155144.png" alt="Registro de gafas de sol">
 </div><br>
 
 👉 Gestión de clientes (crear, editar, borrar)
 <div align="center">
-  <a href="https://postimg.cc/VJ0NTBtc">
-    <img src="https://i.postimg.cc/T3CWKtYh/Captura-de-pantalla-2024-06-25-110501.png" alt="Captura de pantalla de la gestión de clientes">
-  </a>
+    <img src="https://i.postimg.cc/wBD15qkr/Captura-de-pantalla-2024-06-25-155218.png" alt="Gestión de clientes">
 </div><br>
 
 👉 Editar información del cliente
 <div align="center">
-  <a href="https://postimg.cc/Z0Y5ZhNH">
-    <img src="https://i.postimg.cc/7P0G3HYF/Captura-de-pantalla-2024-06-25-110545.png" alt="Captura de pantalla de la edición de información del cliente">
-  </a>
+    <img src="https://i.postimg.cc/bJ8s37Cw/Captura-de-pantalla-2024-06-25-155230.png" alt="Editar información del cliente">
 </div><br>
 
 ## Licencia
@@ -56,6 +46,3 @@ Este repositorio se encuentra disponible para su uso de manera completamente lib
 
 ---
 con ❤️ por [samuelbonet](https://github.com/samuelbonet) 😊
-
-
-
