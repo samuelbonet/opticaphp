@@ -33,7 +33,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
         body {
             font: 14px sans-serif;
             text-align: center;
-            background: linear-gradient(135deg, #74EBD5 0%, #ACB6E5 100%);
+            background: #B0E0E6;
             display: flex;
             flex-direction: column;
         }

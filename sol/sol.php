@@ -45,16 +45,26 @@ $result_clientes = $connection->query($sql_clientes);
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/styles.css">
     <style type="text/css">
-         html, body {
+        html, body {
             height: 100%;
             margin: 0;
+            padding: 0;
         }
         body {
             font: 14px sans-serif;
             text-align: center;
-            background: linear-gradient(135deg, #74EBD5 0%, #ACB6E5 100%);
+            background: #B0E0E6;
+            background-size: cover;
+            min-height: 100vh;
             display: flex;
             flex-direction: column;
+        }
+        .container {
+            flex-grow: 1;
+            padding: 20px;
+        }
+        nav {
+            margin-top: 20px;
         }
     </style>
     <link rel="icon" href="../images/favicon.png" type="image/x-icon">
